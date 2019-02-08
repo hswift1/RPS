@@ -64,7 +64,7 @@ class ViewController: UIViewController {
     @IBAction func playAgain(_ sender: AnyObject) {
         update(forGameState: .start)
     }
-    
+   /* just a random note */
     func update(forGameState gameState: GameState) {
         
         statusLabel.text = gameState.status
